@@ -1,0 +1,359 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) { 
+
+
+    .navbar-nav .nav-item {
+        padding-right: 0.4rem;
+    }
+
+    .productName h4 {
+        font-size: 1.7rem; 
+    }
+
+    #priceTag {
+        padding: 0.4rem 0;
+        font-size: 1.25rem;
+    }
+
+    .details li i {
+        font-size: 1rem;
+        padding: 10px 10px;
+    }
+    
+    .details li { 
+        font-size: 0.52rem;
+    }
+
+    .addToCart li {
+        padding: 0.6rem 0.6rem;
+    }
+    
+    .addToCart a:last-of-type li {    
+        padding: 0.6rem 1.3rem; 
+    }
+    
+    
+
+    #overlay2,#overlay3 {       
+        width: 60%;       
+      }
+
+      .overlayText{
+        
+        top: 13%;
+        left: -16%;
+      }
+    
+      .overlayText::before{
+       
+        top: 25%;
+        left: -45%;
+        right: 100%;
+        width: 40%;
+        
+    }
+
+    .footerLinks{
+        /* padding-left: 5rem;
+        padding-right: 5rem; */
+        padding: 2rem 4rem 0 4rem;
+    }
+    
+    
+
+ }
+
+
+/* // Medium devices (tablets, less than 992px) */
+
+ @media (max-width: 992px) { 
+
+    .sideBarColumn {
+        top: 10rem;
+    }
+
+    #socialIcons i {
+        padding: 0.6rem;
+    }
+
+    .productName h4 {
+        font-size: 1.5rem; 
+    }
+
+    #priceTag {
+        margin-bottom: 14px;
+        padding: 0.5rem 0;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    hr{
+        margin: 11px 0;
+    }
+   
+    .details li i {
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    
+    .details li { 
+        font-size: 0.58rem;
+    }
+
+    .addToCart li {
+        padding: 0.6rem 0.7rem;
+    }
+    
+    .addToCart a:last-of-type li {    
+        padding: 0.6rem 1.4rem; 
+    }
+
+
+    #section2Description,#section3Description{
+        font-size: 14px;
+        margin-top: 7rem;
+    
+    } 
+
+    #overlay2,#overlay3 {       
+        width: 66%;       
+      }
+
+      .overlayText{
+        
+        top: 16%;
+        left: -18%;
+      }
+    
+      .overlayText::before{
+       
+       display: none;
+        
+    }
+
+    #reviews img{
+        width: 50px;
+    
+    }
+
+    .date{
+        font-size: 13px;
+    }
+
+    .footerLinks{
+        /* padding-left: 5rem;
+        padding-right: 5rem; */
+        padding: 2rem 1rem 0 0;
+    }
+    
+
+ }
+
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) { 
+
+    .navbar-brand {
+        margin: 0 auto;
+    }
+   
+    #icons{
+        display: none;
+    }
+
+    .specs ul {
+        letter-spacing: 0.3px;
+        font-size: 0.6rem;
+    }
+
+    .details li i {
+        padding: 10px;
+    }
+
+    .details li {
+        font-size: 8px;
+    }
+    
+    .addToCart li {
+        padding: 0.7rem 0.4rem;
+    }
+
+    .addToCart a:last-of-type li {
+        padding: 0.7rem 1.1rem;
+    }
+    
+    
+
+    #section2Description,#section3Description{
+        padding: 0;
+    }
+
+    #overlay2 h2,#overlay3 h3{
+        font-size: 30px;
+        padding-bottom: 10px;
+
+    }
+
+    #section2Description p,#section3Description p{
+        top: -6.5%;
+    }
+
+    .overlayText{
+        display: none;
+      }
+
+    #relatedProducts{
+        margin: 1%;
+    }
+
+    footer{
+        margin-top: 4rem;
+        padding: 4rem 1rem 2rem 1rem;
+    }
+
+    footer ul:first-of-type li a{
+       
+        font-size: 0.65rem;
+    }
+
+    footer hr:nth-of-type(2){
+        margin-top: 5rem;
+    }
+
+    #socialIconsFooter li a i{
+        font-size: 0.9rem;
+    }
+
+      .footerLinks{
+        padding: 1.5rem 0 0 0;
+    }
+ }
+
+
+ /* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    .navbar-nav .nav-item {
+        padding-bottom: 0.4rem;
+        
+    }
+
+    .productImage img {
+        top: -10%;
+        left: 0;
+        transform: scaleX(1);
+    }
+    .productRow{
+        margin: 16px 4px; 
+    }
+
+    .navbar-brand img {
+        height: 1.5rem;
+    }
+
+    #priceTag {
+        padding: 0.5rem 0;
+        font-size: 1.3rem;
+    }
+
+    .specs ul {
+        font-size: 0.8rem;
+    }
+
+    .details li i {
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+
+    .details li {
+        font-size: 11px;
+    }
+
+    .color p {
+        font-size: 0.8rem;
+    }
+
+    .addToCart li {
+        padding: 0.7rem 1rem;
+    }
+    
+    .addToCart a:last-of-type li {
+        padding: 0.7rem 2.5rem;
+    }
+
+    #section2,#section3{
+        background-color: #f8f9fa;
+    }
+
+    #section2,#section3 {
+        margin: 50px 0 4px 4px;
+    }
+
+    #section3 video{
+        margin: 50px 0;
+    }
+
+    #section3 video{
+        width: 100%;
+    }
+
+    #section4Image{
+        height: 70vh;
+        /* width: 90%; */
+        padding-left: 35px;
+    }
+
+    .overlayImage img{
+        
+        width: 70%; /* Full width (cover the whole page) */
+        height: 40%; /* Full height (cover the whole page) */
+        top: 55%; 
+        left: 4%;
+        right: 0;
+
+        
+      }
+
+    .overlayText{
+        display: block;
+        top: 12%;
+        left: -18%;
+    }
+
+      .overlayText::before{
+        display: block;
+        top: 25%;
+        left: -42%;
+        right: 100%;
+        width: 40%; 
+    }
+
+    .downloadOverlay{
+        top: -6%;
+        right: 3%;
+        height: 20%;
+        width: 60%;
+    }
+
+    footer ul:first-of-type li a{
+        font-size: 0.8rem;
+    }
+
+    .footer .row{
+        margin-left: 0;
+    }
+
+    footer ul:first-of-type li {
+       padding: 0.7rem 0;
+    }
+    
+    #socialIconsFooter li a i{
+        font-size: 1.2rem;
+    }
+
+    #socialIconsFooter li{
+        padding: 3rem 1rem;
+    }
+ }
+/* // Extra large devices (large desktops) */
+/* // No media query since the extra-large breakpoint has no upper bound on its width */

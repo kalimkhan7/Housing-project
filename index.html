@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HOUSING</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/queries.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light py-sm-3 py-md-4 ml-sm-5">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand mr-md-0 pl-md-4" href="#"><img src="images/Euler's_infinity_sign.svg.png" alt=""></a>
+
+    <ul class="nav d-md-none" id="navbarAltIcons">
+      <li class="nav-item">
+        <a class="" href="#"><i class="fas fa-search"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="" href="#"><i class="far fa-heart"></i></a>
+      </li>
+      <li class="nav-item ">
+          <a class="" href="#">
+            <span class="fas fa-shopping-bag">
+              <span class="cartQuantity">
+                <span>0</span>
+              </span>
+            </span>
+          </a>
+
+        </li>
+
+    </ul>
+
+    <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+      <ul class="navbar-nav pt-sm-0 pt-3 ml-md-auto pr-lg-5 text-center" id="navbarItems">
+        <li class="nav-item">
+          <a class="nav-link" href="#">BEDROOM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">LIVING ROOM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">OFFICE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">KITCHEN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BATHROOM</a>
+        </li>
+
+        <li>
+          <ul class="nav" id="icons">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
+            </li>
+            <li class="nav-item align--text-top">
+              <a class="nav-link" href="#">
+                <span class="fas fa-shopping-bag">
+                  <span class="cartQuantity">
+                    <span>0</span>
+                  </span>
+                </span>
+              </a>
+
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+  <!-- ALTERNATE NAVIGATION -->
+  <ul class="nav altNav bg-light text-uppercase justify-content-between ml-sm-5 d-md-none sticky-top">
+    <li class="">
+      <a class="" href="#">Details</a>
+    </li>
+    <li class="">
+      <a class="" href="#section2">Description</a>
+    </li>
+    <li class="">
+      <a class="" href="#reviews">Reviews</a>
+    </li>
+    <li class="">
+      <a class="" href="#relatedProducts">Related</a>
+    </li>
+  </ul>
+  <!-- ALTERNATE NAVIGATION -->
+
+  <!-- BREADCRUMBS -->
+  <div class="container ml-5 px-0 mt-3 d-none d-md-block">
+    <nav>
+      <ol class="breadcrumb bg-transparent px-0 text-uppercase ">
+        <li class=""><a href="#"><i class="fas fa-home"></i></a><i class="fas fa-caret-right"></i></li>
+        <li class=""><a href="#">Catalog</a><i class="fas fa-caret-right"></i></li>
+        <li class=""><a href="#">Sofas</a><i class="fas fa-caret-right"></i></li>
+        <li class=""><a href="#">Biege Nudie Sofa</a></i></li>
+      </ol>
+    </nav>
+  </div>
+  <!-- BREADCRUMBS -->
+
+  <div id="products">
+    <div class="container-fluid mt-5 mt-md-5">
+      <div class="row">
+        <div class="col-md-3 col-lg-4 d-none d-md-block sideBarColumn">
+         
+          
+          <ul class="nav flex-column text-uppercase d-none d-md-block" id="sideBar">
+            <li class="nav-item">
+              <a  href="#">Details</a>
+            </li>
+            <li class="nav-item">
+              <a href="#section2">Descrpition</a>
+            </li>
+            <li class="nav-item">
+              <a  href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a  href="#relatedProducts">Custom&nbsp;Tab</a>
+            </li>
+            <li>
+              <ul class="nav mt-md-3 mt-lg-5" id="socialIcons">
+                <li class="">
+                  <a class=" " href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="">
+                  <a class=" " href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="">
+                  <a class=" " href="#"><i class="fab fa-pinterest"></i></a>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+
+          <div class="sideText d-none d-lg-block" id="">
+            <h3>Details</h3>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-9 col-lg-8 block">
+
+          <section class="row productRow bg-light pb-5 ml-sm-5 ml-md-0 p-lg-4" id="section1" data-section-active="Details">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-7">
+              <div class="productImage">
+                <img class="" src="images/sofa.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-5 pt-3 pt-sm-4">
+              <div class="productDetails px-3 px-md-0">
+                <div class="productName mb-2">
+                  <h4><b>Nudie Extendable </b></h4>
+                  <h4><b>Sofa for 3 persons.</b></h4>
+                </div>
+                <div class="rating mb-2">
+                  <span onmouseover="rating(this)" onclick="rating(this)" class="far fa-star" id="1"></span>
+                  <span onmouseover="rating(this)" onclick="rating(this)" class="far fa-star" id="2"></span>
+                  <span onmouseover="rating(this)" onclick="rating(this)" class="far fa-star" id="3"></span>
+                  <span onmouseover="rating(this)" onclick="rating(this)" class="far fa-star" id="4"></span>
+                  <span onmouseover="rating(this)" onclick="rating(this)" class="far fa-star" id="5"></span>
+                  <span class="text-muted">(23)</span>
+                </div>
+
+                <p id="priceTag"><span class="ogPrice pr-2 pr-lg-3">$169</span><span class="">$149</span></p>
+
+                <hr>
+                <div class="specs">
+                  <ul>
+                    <li>
+                      <span class="text-uppercase"><b>Assembly :</b></span> Carpenter Assembly
+                    </li>
+                    <li>
+                      <span class="text-uppercase"><b>Warranty :</b></span> 12 Month Warranty
+                    </li>
+                  </ul>
+                </div>
+                <hr>
+                <ul class="nav details mb-3 mb-md-3 mb-lg-4 py-1 ">
+                  <li>
+                    <i class="fas fa-bus"></i>
+                  </li>
+                  <li class="mt-2 pl-2 pl-sm-1 pl-xl-3">
+                    <span class="text-uppercase"><b>Same Day<br>Dispatch</b></span>
+                  </li>
+                  <li class="ml-3 ml-sm-1 ml-lg-3 ml-xl-4">
+                    <i class="fas fa-undo-alt"></i>
+                  </li>
+                  <li class="mt-2 pl-2 pl-sm-1 pl-xl-3">
+                    <span class="text-uppercase "><b>Easy - 30 day<br>return policy</b></span>
+                  </li>
+                </ul>
+                <div class="color mb-3">
+                  <p><b>COLOR :</b></p>
+                  <span class="fas fa-check-circle" style="color:#7969055d;"></span>
+                  <span class="fas fa-circle"></span>
+                  <span class="fas fa-circle" style="color:rgb(226, 211, 211);"></span>
+                </div>
+                <ul class="nav addToCart">
+                  <a href="#" onclick="decrease()">
+                    <li>&mdash;</li>
+                  </a>
+                  <li id="quantity">1</li>
+                  <a href="#" onclick="increase()">
+                    <li>+</li>
+                  </a>
+                  <a href="#" onclick="addToCart()">
+                    <li>ADD TO CART</li>
+                  </a>
+                </ul>
+              </div>
+
+            </div>
+          </section>
+
+        <section id="description" data-section-active="Description">
+          <div class="row ml-sm-5 ml-md-0" id="section2">
+
+            <div class="col-12 col-sm-3 pr-2 pr-md-3 d-none d-sm-block" id="section2Description">
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus, in dolorem ad autem, sapiente
+                asperiores inventore esse voluptatum fugiat commodi error rerum? Sunt reiciendis illo, quo molestias
+                nesciunt non mollitia magnam, et iure doloremque atque dolorem.</p>
+              <p class="d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
+                accusantium corrupti eius.</p>
+
+
+            </div>
+            <div class="col-12 col-sm-9">
+              <img class="" src="images/section2.jpg" alt="">
+
+            </div>
+
+            <div class="col-12 pt-5 pb-4 d-sm-none" id="">
+              <h2><b>Lorem ipsum dolor sit amet consectetur elit.</b></h2>
+
+            </div>
+            <div class="col-12 d-sm-none" id="">
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus, in dolorem ad autem, sapiente
+                asperiores inventore esse voluptatum fugiat commodi error rerum? Sunt reiciendis illo, quo molestias
+                nesciunt non mollitia magnam, et iure doloremque atque dolorem.</p>
+              <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium corrupti
+                eius.</p>
+
+
+            </div>
+
+            <div class=" p-md-3 p-lg-4 d-none d-sm-block" id="overlay2">
+              <h2><b>Lorem ipsum dolor sit amet consectetur elit.</b></h2>
+
+            </div>
+          </div>
+
+
+          <div class="row ml-sm-5 ml-md-0" id="section3">
+
+
+            <div class="col-12 mb-5 mb-sm-0">
+              <div class="embed-responsive embed-responsive-16by9">
+                <video width="" height="" src="videos/Sofa Set For living Room 2018 I Living room interior design.mp4"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></video>
+
+              </div>
+              <a href="#" onclick="playVideo(event)" class="playVideo fas fa-play"></a>
+            </div>
+
+            <div class="col-12 pt-5 pb-4 d-sm-none" id="">
+              <h2><b>Lorem ipsum dolor sit amet consectetur elit.</b></h2>
+
+            </div>
+
+
+            <div class=" p-md-3 p-lg-4 d-none d-sm-block" id="overlay3">
+              <h2><b>Lorem ipsum dolor sit amet consectetur elit.</b></h2>
+
+            </div>
+          </div>
+
+          <div class="row ml-sm-5 ml-md-0" id="section4">
+            <div class="col-12">
+              <img src="images/section2.jpg" alt="" id="section4Image">
+
+              <div class="overlayImage shadow-lg">
+                <img src="images/other.jpg" alt="">
+              </div>
+
+              <div class="overlayText">
+                <p>SUGGESTED ACCOMODATION</p>
+              </div>
+
+              <div class="downloadOverlay">
+                <a href=""><span class="fas fa-arrow-down"> DOWNLOAD PDF</span></a>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+          <section class="row ml-sm-5 ml-md-0 pt-md-5" id="reviews"  data-section-active="Reviews">
+            <div class="col-12">
+              <h2><b>23 Reviews for Nudie Extendable Sofa</b></h2>
+              <div class="py-4">
+                <span class="far fa-star"></span>
+                <span class="far fa-star"></span>
+                <span class="far fa-star"></span>
+                <span class="far fa-star"></span>
+                <span class="far fa-star"></span>
+                <span class="text-muted">(23)</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="images/user1.jpg" alt="">
+              <div class="userDetails pl-3 pl-md-1 pl-lg-3 pt-3">
+                <span><b>John Doe</b></span>
+                <p class="text-muted date">August 28 2016 </p>
+              </div>
+            </div>
+            <div class="col-md-8 mt">
+              <div class="userReview pt-3">
+                <h6>Excellent</h6>
+                <div class="">
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+
+                </div>
+                <p class="reviewText pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius
+                  excepturi pariatur tempora saepe similique id perspiciatis perferendis ipsum eos, tenetur repudiandae
+                  dolores a ea aut illum voluptate, reiciendis quis ad necessitatibus inventore voluptates! Suscipit
+                  rem, nobis delectus ratione eligendi neque numquam sed odio praesentium eos provident ut non maxime
+                  debitis? Cumque, dolor soluta. Quos iste vel magnam, libero quia atque aliquam corporis officiis, qui
+                  error dolore eligendi earum. Non, dicta ut corporis aliquid reiciendis sunt quis nulla consectetur
+                  iusto esse ipsa !</p>
+                <p class="addComment">Add Comment</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <img src="images/user2.jpg" alt="">
+              <div class="userDetails pl-3 pl-md-1 pl-lg-3 pt-3">
+                <span><b>John Doe</b></span>
+                <p class="text-muted date">August 28 2016 </p>
+              </div>
+            </div>
+            <div class="col-md-8 mt">
+              <div class="userReview pt-3">
+                <h6>Excellent</h6>
+                <div class="">
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+
+                </div>
+                <p class="reviewText pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius
+                  excepturi pariatur tempora saepe similique id perspiciatis perferendis ipsum eos, tenetur repudiandae
+                  dolores a ea aut illum voluptate, reiciendis quis ad necessitatibus inventore voluptates! Suscipit
+                  rem, nobis delectus ratione eligendi neque numquam sed odio praesentium eos provident ut non maxime
+                  debitis? Cumque, dolor soluta. Quos iste vel magnam, libero quia atque aliquam corporis officiis, qui
+                  error dolore eligendi earum. Non, dicta ut corporis aliquid reiciendis sunt quis nulla consectetur
+                  iusto esse ipsa !</p>
+                <p class="addComment">Add Comment</p>
+              </div>
+            </div>
+
+          </section>
+
+          <section class="row ml-sm-5 ml-md-0 pt-5 " id="relatedProducts"  data-section-active="Related">
+            <div class="col-12 pl-0 pb-4">
+              <h2><b>Related Products</b></h2>
+            </div>
+
+            <div class="col-6 col-md-3 bg-white p-4 text-center">
+              <img class="img-fluid" src="images/L26230209.jpg" alt="">
+              <p class="m-0 pt-3 pb-2"><b>Bamboo fibre gobo</b></p>
+              <span class="text-muted">$169</span><span class="ml-2">$149</span>
+            </div>
+            <div class="col-6 col-md-3 bg-white p-4 text-center">
+              <img class="img-fluid" src="images/fritz.jpg" alt="">
+              <p class="m-0 pt-3 pb-2"><b>Bamboo fibre gobo</b></p>
+              <span class="text-muted">$169</span><span class="ml-2">$149</span>
+            </div>
+            <div class="col-6 col-md-3 bg-white p-4 text-center">
+              <img class="img-fluid" src="images/images (1).jpeg" alt="">
+              <p class="m-0 pt-3 pb-2"><b>Bamboo fibre gobo</b></p>
+              <span class="text-muted">$169</span><span class="ml-2">$149</span>
+            </div>
+            <div class="col-6 col-md-3 bg-white p-4 text-center">
+              <img class="img-fluid" src="images/images (2).jpeg" alt="">
+              <p class="m-0 pt-3 pb-2"><b>Bamboo fibre gobo</b></p>
+              <span class="text-muted">$169</span><span class="ml-2">$149</span>
+            </div>
+            <div class="col-6 col-md-3 bg-white p-4 text-center">
+              <img class="img-fluid" src="images/images (3).jpeg" alt="">
+              <p class="m-0 pt-3 pb-2"><b>Bamboo fibre gobo</b></p>
+              <span class="text-muted">$169</span><span class="ml-2">$149</span>
+            </div>
+            <div class="col-6 col-md-3 bg-white p-4 text-center">
+              <img class="img-fluid" src="images/images.jpeg" alt="">
+              <p class="m-0 pt-3 pb-2"><b>Bamboo fibre gobo</b></p>
+              <span class="text-muted">$169</span><span class="ml-2">$149</span>
+            </div>
+            <div class="col-6 col-md-3 bg-white p-4 text-center">
+              <img class="img-fluid" src="images/9500.401398-cruz_tv_table-oak-pure_white.jpg" alt="">
+              <p class="m-0 pt-3 pb-2"><b>Bamboo fibre gobo</b></p>
+              <span class="text-muted">$169</span><span class="ml-2">$149</span>
+            </div>
+            <div class="col-6 col-md-3 bg-white p-4 text-center">
+              <img class="img-fluid" src="images/42428459-1-f.jpg" alt="">
+              <p class="m-0 pt-3 pb-2"><b>Bamboo fibre gobo</b></p>
+              <span class="text-muted">$169</span><span class="ml-2">$149</span>
+            </div>
+
+          </section>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <footer class="ml-sm-5">
+    <div class="row">
+
+      <div class="col-12 text-center">
+        <a class="d-inline-block d-sm-none mb-4" href="#"><img src="images/Euler's_infinity_sign.svg.png" alt=""></a>
+
+        <h3 class="pt-sm-3 pt-md-5 d-none d-sm-block "><b>Grab Our Newsletter</b></h3>
+        <hr class="d-none d-sm-block">
+        <hr class="d-none d-sm-block" style="width:90%;">
+
+        <div class="row footerLinks">
+          <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5">
+            <ul class="nav flex-column flex-sm-row text-uppercase justify-content-between">
+              <li>
+                <a href="">bedroom</a>
+              </li>
+              <li>
+                <a href="">living room</a>
+              </li>
+              <li>
+                <a href="">office</a>
+              </li>
+              <li>
+                <a href="">kitchen</a>
+              </li>
+              <li>
+                <a href="">bathroom</a>
+              </li>
+            </ul>
+          </div>
+          <div class="offset-sm-1 offset-md-3 offset-xl-5 offset-lg-4 col-sm-3 col-md-2 col-lg-2 col-xl-2 pt-3">
+            <ul class="nav justify-content-center justify-content-sm-around" id="socialIconsFooter">
+              <li class="">
+                <a class=" " href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="">
+                <a class=" " href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="">
+                <a class=" " href="#"><i class="fab fa-pinterest"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
