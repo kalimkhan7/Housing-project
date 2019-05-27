@@ -251,6 +251,8 @@ body {
     padding: 20px;
     border-radius: 50%;
     z-index: 999;
+    opacity: 0;
+    background-image: radial-gradient(#ffd300 ,#ffd5006b ,rgba(255, 255, 224, 0.377))
 }
 
 .playVideo:hover{
@@ -307,8 +309,8 @@ body {
 
   .downloadOverlay{
       position: absolute;
-      right: 0;
-      bottom : -5%;
+      right: 1%;
+      bottom : -6%;
       height: 20%;
       width: 30%;
       background-color: #ffd300;
@@ -500,4 +502,23 @@ footer hr:nth-of-type(2){
 
 footer img{
     width: 15%;
+}
+
+
+/* Animation */
+
+
+.animationOverlay {
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: scaleY(1.15);
+    -webkit-transition-property: left, width;
+    transition-property: left, width;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    z-index: 999;
 }

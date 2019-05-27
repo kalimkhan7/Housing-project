@@ -278,7 +278,7 @@
     }
     
     .addToCart a:last-of-type li {
-        padding: 0.7rem 2.5rem;
+        padding: 0.7rem 1.8rem;
     }
 
     #section2,#section3{
@@ -299,14 +299,13 @@
 
     #section4Image{
         height: 70vh;
-        /* width: 90%; */
         padding-left: 35px;
     }
 
     .overlayImage img{
         
-        width: 70%; /* Full width (cover the whole page) */
-        height: 40%; /* Full height (cover the whole page) */
+        width: 70%; 
+        height: 40%; 
         top: 55%; 
         left: 4%;
         right: 0;
