@@ -32,20 +32,16 @@
         padding: 0.6rem 1.3rem; 
     }
     
-    
-
     #overlay2,#overlay3 {       
         width: 60%;       
       }
 
-      .overlayText{
-        
+      .overlayText{     
         top: 13%;
         left: -16%;
       }
     
-      .overlayText::before{
-       
+      .overlayText::before{  
         top: 25%;
         left: -45%;
         right: 100%;
@@ -54,13 +50,9 @@
     }
 
     .footerLinks{
-        /* padding-left: 5rem;
-        padding-right: 5rem; */
         padding: 2rem 4rem 0 4rem;
     }
     
-    
-
  }
 
 
@@ -112,7 +104,6 @@
     #section2Description,#section3Description{
         font-size: 14px;
         margin-top: 7rem;
-    
     } 
 
     #overlay2,#overlay3 {       
@@ -120,20 +111,17 @@
       }
 
       .overlayText{
-        
         top: 16%;
         left: -18%;
       }
     
-      .overlayText::before{
-       
+      .overlayText::before{  
        display: none;
         
     }
 
     #reviews img{
         width: 50px;
-    
     }
 
     .date{
@@ -141,12 +129,9 @@
     }
 
     .footerLinks{
-        /* padding-left: 5rem;
-        padding-right: 5rem; */
         padding: 2rem 1rem 0 0;
     }
     
-
  }
 
 
@@ -183,8 +168,6 @@
         padding: 0.7rem 1.1rem;
     }
     
-    
-
     #section2Description,#section3Description{
         padding: 0;
     }
@@ -234,14 +217,14 @@
  /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
     .navbar-nav .nav-item {
-        padding-bottom: 0.4rem;
-        
+        padding-bottom: 0.4rem;  
     }
 
     .productImage img {
         top: -10%;
         left: 0;
-        transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+                transform: scaleX(1);
     }
     .productRow{
         margin: 16px 4px; 
@@ -308,9 +291,7 @@
         height: 40%; 
         top: 55%; 
         left: 4%;
-        right: 0;
-
-        
+        right: 0;    
       }
 
     .overlayText{

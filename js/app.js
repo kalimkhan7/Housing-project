@@ -4,7 +4,7 @@
  */
 function playVideo(event) {
     event.preventDefault();
-    var video = document.querySelector("video");
+    var video      = document.querySelector("video");
     var playButton = document.querySelector(".playVideo");
     playButton.style.display = "none";
     video.play();
@@ -39,8 +39,8 @@ function decrease() {
 function addToCart() {
     var cartElements = document.querySelectorAll(".cartQuantity span");
     cartElements.forEach(function (cartElement) {
-        var cartQuantity = +cartElement.innerText;
-        cartQuantity = cartQuantity + noOfItems;
+        var cartQuantity      = +cartElement.innerText;
+        cartQuantity          = cartQuantity + noOfItems;
         cartElement.innerText = cartQuantity;
     })
 
@@ -117,15 +117,13 @@ function animate() {
     var sections = document.querySelectorAll('.slide');
    
     sections.forEach(section => {
-        const slideInAt = (window.pageYOffset + window.innerHeight) - section.offsetHeight;
+        const slideInAt    = (window.pageYOffset + window.innerHeight) - section.offsetHeight;
         const atTheSection = slideInAt > section.offsetTop;
-       
-        const playButton = document.querySelector('.playVideo');
+        const playButton   = document.querySelector('.playVideo');
         console.log(playButton);
         if (atTheSection) {
-            let overlay = section.querySelector('.animationOverlay');
-            console.log(overlay);
-            overlay.style.cssText = "left: 100%;width: 0;";
+            let overlay              = section.querySelector('.animationOverlay');
+            overlay.style.cssText    = "left: 100%;width: 0;";
             playButton.style.opacity = '1';
         }
     });

@@ -43,6 +43,7 @@ body {
 }
 
 .navbar-nav a:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #f8f9fa), to(#ffd300));
     background-image: linear-gradient(#f8f9fa 60%, #ffd300);
 }
 
@@ -82,7 +83,8 @@ body {
     font-size: 12px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
 }
 
 /* BREADCRUMBS */
@@ -149,6 +151,7 @@ body {
 
 /* SIDEBAR */
 .sideBarColumn {
+    position: -webkit-sticky;
     position: sticky;
     text-align: right;
     top: 17rem;
@@ -172,11 +175,13 @@ body {
 }
 
 #products .nav-item a:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #f0f0f0), to(#ffd300));
     background-image: linear-gradient(#f0f0f0 60%, #ffd300);
     padding-left: 400px;
 }
 
 .sideBarSelected{
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #f0f0f0), to(#ffd300));
     background-image: linear-gradient(#f0f0f0 60%, #ffd300);
     padding-left: 400px;
 }
@@ -200,7 +205,8 @@ body {
     position: absolute;
     top: 30%;
     left: 22%;
-    transform: translate(-50%,-50%) rotate(-90deg);
+    -webkit-transform: translate(-50%,-50%) rotate(-90deg);
+            transform: translate(-50%,-50%) rotate(-90deg);
 }
 .sideText h3 {
     
@@ -247,13 +253,22 @@ body {
     color: black;
     top: 50%;
     right: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
     padding: 20px;
     border-radius: 50%;
     z-index: 999;
     opacity: 0;
-    background-image: radial-gradient(#ffd300 ,#ffd5006b ,rgba(255, 255, 224, 0.377))
+    background-image: radial-gradient(#ffd300 ,#ffd5006b ,rgba(255, 255, 224, 0.377));
+    /* animation: mymove 5s infinite; */
+    -webkit-transition: opacity 4s;
+    transition: opacity 4s;
 }
+
+/* @keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  } */
 
 .playVideo:hover{
     color: black;
@@ -262,7 +277,8 @@ body {
 
 #section4Image{
     width: 100%;
-    transform: scaleY(1.1);
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
 }
 
 
@@ -292,7 +308,8 @@ body {
     font-size: 14px;
     font-weight: 700;
     color: black;
-    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
   }
 
   .overlayText::before{
@@ -321,7 +338,8 @@ body {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
       color: black;
       width: 100%;
   }
@@ -332,7 +350,8 @@ body {
     left: 50%;
     width: 100%;
     padding-bottom: 100%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 
 }
 
@@ -341,7 +360,8 @@ body {
     height: 100%;
     width: 100%;
     left: -12%;
-    transform: scaleX(1.1);
+    -webkit-transform: scaleX(1.1);
+            transform: scaleX(1.1);
 }
 
 .ogPrice {
@@ -515,10 +535,11 @@ footer img{
     left: 0;
     height: 100%;
     width: 100%;
-    transform: scaleY(1.15);
-    -webkit-transition-property: left, width;
-    transition-property: left, width;
-    -webkit-transition-duration: 2s;
-            transition-duration: 2s;
+    -webkit-transform: scaleY(1.15);
+            transform: scaleY(1.15);
+    -webkit-transition: left, width, 2s;
+    transition: left, width, 2s;
+    
+            
     z-index: 999;
 }
